@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class letterGrade {
-	public static char letterGrade(int score) { 
+	public static char letterGrade(int score) {
 		  char grade; 
 		  if (score <0 || score > 100)
 		            grade = 'X'; 
@@ -18,7 +18,7 @@ public class letterGrade {
 		  else if (score>=60 && score <70)
 		       grade = 'D';
 		  else
-		       grade ='F'; 
-		  return grade;  
+		       grade ='F';
+		  return grade;
 		}
 }
